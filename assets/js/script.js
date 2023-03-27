@@ -162,9 +162,9 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 
 
 // pre loader start
-// function loader() {
-//     document.querySelector('.loader-container').classList.add('fade-out');
-// }
+function loader() {
+    document.querySelector('.loader-container').classList.add('fade-out');
+}
 // function fadeOut() {
 //     setInterval(loader, 500);
 // }
