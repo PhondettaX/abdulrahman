@@ -80,13 +80,13 @@
     }
   },
   {
-    "name": "Flipkart PHP",
-    "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-    "image": "flipkartphp",
+    "name": "TruckGO Django",
+    "desc": "It's a transportation app which helps to transport goods around Sudan",
+    "image": "truckgo",
     "category": "lamp",
     "links": {
-      "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-      "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
+      "view": "https://truckgo.co/",
+      "code": "https://truckgo.co/"
     }
   },
   {
