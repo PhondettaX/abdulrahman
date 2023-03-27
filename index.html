@@ -67,6 +67,8 @@
           <li><a class="telegram" aria-label="Telegram" href="https://t.me/zinonsoftware" target="_blank"><i
                 class="fab fa-telegram-plane"></i></a></li>
           <!-- <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i class="fab fa-instagram" target="_blank"></i></a></li> -->
+          <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/jigarsable.dev"><i
+                class="fab fa-instagram" target="_blank"></i></a></li>
           <li><a class="dev" aria-label="Dev" href="https://dev.to/zinonsoftware" target="_blank"><i
                 class="fab fa-dev"></i></a></li>
         </ul>
@@ -406,6 +408,22 @@
   <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
   <script src="./assets/js/script.js"></script>
+
+  <script>
+    // جلب بلد العميل باستخدام API GeoIP 
+    fetch('https://ipapi.co/json/')
+      .then(response => response.json())
+      .then(data => {
+        const country = data.country_name;
+        console.log(`بلد العميل: ${country}`);
+      })
+      .catch(error => console.error(error));
+
+    // جلب وقت الزيارة
+    const time = new Date().toLocaleString();
+    console.log(`وقت الزيارة: ${time}`);
+
+  </script>
 
 </body>
 
